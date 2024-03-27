@@ -1,0 +1,82 @@
+body {
+    overflow-y: auto;
+    overflow-x: auto;
+}
+#card{
+    border: 10px;
+}
+.navbar-toggler{
+    background-color: black;
+}
+.nav{
+    @media (min-width: 600px) and (max-width: 900px) {
+        row {
+            font-size: 12px;
+        }
+    }
+
+}
+#logo{
+
+        max-width: 100%;
+        
+        height: auto;
+}
+#button{
+    float:right;
+    padding: 0%;
+}
+#slider{
+    padding:auto;
+}
+.card {
+    padding: 20px;}
+
+#announce{
+    background-color: rgb(219, 219, 57);
+    color: white;
+    text-align: center;
+    padding: '10px 10px 10px 10px';
+    font-size: large;
+    border: 10px;
+
+}
+#aboutus{
+    background-color: rgb(219, 219, 57);
+    color: white;
+    text-align: center;
+    padding: '10px';
+    font-size: large;
+}
+#contactus{background-color: rgb(219, 219, 57);
+    color: white;
+    text-align: center;
+    padding: '10px';
+    font-size: large;}
+p{
+ font-size: medium;
+ font-weight: normal;
+}
+.SOLIMAGE img{
+    height: 300px;
+    width: 440px;
+    align-items: center;
+    justify-content: space-between;
+}
+.contact{
+    text-align: center;
+    color: white;
+
+}
+.copyright{
+    background-color: black;
+    text-align: center;
+    color: azure;
+}
+
+html,body{
+    margin: 0;
+    height: 100%;
+    overflow-x: hidden;
+}
+  
